@@ -1,0 +1,23 @@
+.container{
+    /*padding: 1rem;*/
+    margin:auto;
+    width:80vw;
+    height:50vh;
+    border:medium solid #333;
+    background-color: steelblue;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.item{
+    border:thin solid #333;
+    font-size:2rem;
+    background-color: deepskyblue;
+    width:15%;
+    height:20%;
+}
+.item:nth-child(9){font-size: 4rem;}

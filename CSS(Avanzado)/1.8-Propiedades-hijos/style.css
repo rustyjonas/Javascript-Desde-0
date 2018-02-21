@@ -1,0 +1,10 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: yellow;
+}
+.item:nth-child(even){
+    background-color: pink;
+}
